@@ -47,13 +47,13 @@ const Counter = ({ max, min, initial, steps }) => {
       <div className="my-3 fs-4">
         <ClassifyNumbersByColors max={15} min={-15} number={counterNumber} />
       </div>
-      {/* <div>
+      <div>
         <label>chose the jumps between numbers: </label>
         <input
           type="number"
           onInput={(e) => setSteps(Number(e.target.value))}
         />
-      </div> */}
+      </div>
     </div>
   );
 };
